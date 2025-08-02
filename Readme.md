@@ -23,3 +23,24 @@ create .env file
 
 "type": "module",
 "dev": "nodemon src/index.js"
+
+# Add Prettier
+
+npm i -D prettier
+create file .prettierrc and add below code:
+{
+"singleQuote" :false,
+"bracketSpacing": true,
+"tabWidth": 2,
+"semi": true,
+"trailingComma": "es5"
+}
+
+create another file .prettierignore
+
+/.vscode
+/node_modules
+./dist
+_.env
+.env
+.env_
