@@ -16,6 +16,9 @@ git push -u origin main
 npm install --save-dev nodemon
 npm i -D nodemon
 
+create .gitignore file and add copy from [link]https://mrkandreev.name/snippets/gitignore-generator/#Node
+create .env file
+
 ## inside package.json
 
 "type": "module",
