@@ -3,3 +3,20 @@
 This is a video series on backened with javascript
 
 - [Model Link](https://www.youtube.com/watch?v=9B4CvtzXRpc&list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW&index=7)
+
+## Commands:
+
+git init
+git add .
+git commit -m "Initial Commit"
+git branch -M main
+git remote add origin https://github.com/john2121981/chai-backend-01.git
+git push -u origin main
+
+npm install --save-dev nodemon
+npm i -D nodemon
+
+## inside package.json
+
+"type": "module",
+"dev": "nodemon src/index.js"
