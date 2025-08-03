@@ -24,7 +24,7 @@ create .env file
 "type": "module",
 "dev": "nodemon src/index.js"
 
-# Add Prettier
+# Add Prettier [LInk]https://prettier.io/docs/
 
 npm i -D prettier
 create file .prettierrc and add below code:
@@ -39,8 +39,8 @@ create file .prettierrc and add below code:
 create another file .prettierignore
 
 /.vscode
-/node_modules
+/node*modules
 ./dist
-_.env
+*.env
 .env
-.env_
+.env\_
