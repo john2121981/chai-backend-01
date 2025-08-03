@@ -44,3 +44,5 @@ create another file .prettierignore
 *.env
 .env
 .env\_
+
+npm i cookie-parser cors
