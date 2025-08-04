@@ -16,7 +16,7 @@ connectDB()
   });
 
 /*
-//FE function code
+//IIAFE function code
 import express from "express"
 const app = express()
 (async ()=>{
